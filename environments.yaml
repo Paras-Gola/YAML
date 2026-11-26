@@ -1,0 +1,22 @@
+environments:
+
+  development:
+    debug : true
+    log_level : DEBUG
+    database :
+      host : localhost
+      port : 5432
+
+  staging:
+    debug : false
+    log_level : INFO
+    database:
+      host : staging-db
+      port : 5432
+
+  production:
+    debug : false
+    log_level : WARNING
+    database :
+      host : production-db
+      port : 5432
